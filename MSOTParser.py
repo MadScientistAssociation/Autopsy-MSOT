@@ -39,10 +39,10 @@ from org.sleuthkit.autopsy.coreutils import Logger
 from org.sleuthkit.autopsy.casemodule import Case
 from org.sleuthkit.autopsy.casemodule.services import Services
 from org.sleuthkit.autopsy.casemodule.services import FileManager
-from lib.sln_tbl_parse27 import *
-from lib.evt_tbl_parse27 import *
-from lib.user_tbl_parse27 import *
-from lib.misc_functions27 import *
+from lib.sln_tbl_parse_aut import *
+from lib.evt_tbl_parse_aut import *
+from lib.user_tbl_parse_aut import *
+from lib.misc_functions_aut import *
 
 # Factory that defines the name and details of the module and allows Autopsy
 # to create instances of the modules that will do the anlaysis.
