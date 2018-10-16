@@ -1,5 +1,5 @@
 import binascii
-from misc_functions27 import *
+from misc_functions_aut import *
 
 class evtTable:
 
