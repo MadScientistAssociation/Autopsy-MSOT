@@ -2,7 +2,7 @@
 
 [Autopsy](https://www.sleuthkit.org/autopsy/) plug-in to parse [Microsoft Office telemetry files](https://github.com/MadScientistAssociation/libmsot).
 
-For more information on Office telemetry forensics, visit https://madscientistassiation.org.
+For more information on Office telemetry forensics, visit https://madscientistassociation.org.
 
 ## Compatibility
 Tested with Autopsy 4.8.0.
