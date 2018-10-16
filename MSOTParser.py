@@ -216,7 +216,8 @@ class MSOfficeTelemProcesser(DataSourceIngestModule):
                 artifact.addAttribute(BlackboardAttribute(BlackboardAttribute.ATTRIBUTE_TYPE.TSK_DATETIME.getTypeID(), MSOfficeTelemProcessFactory.moduleName, event_datetime))
                 # Add Description attribute based on event ID
                 artifact.addAttribute(BlackboardAttribute(BlackboardAttribute.ATTRIBUTE_TYPE.TSK_COMMENT.getTypeID(), MSOfficeTelemProcessFactory.moduleName, result[3]))
-
+                # Add Username attribute
+                artifact.addAttribute(BlackboardAttribute(BlackboardAttribute.ATTRIBUTE_TYPE.TSK_USER_NAME.getTypeID(), MSOfficeTelemProcessFactory.moduleName, result[11]))
 
 def correlate_tbl_files(sln_tbl_files, evt_tbl_files, usr_tbl_files):
 
