@@ -7,7 +7,7 @@ For more information on Office telemetry forensics, visit https://madscientistas
 ## Compatibility
 Tested with Autopsy 4.8.0.
 
-# Usage
+## Usage
 Unzip all files from the repo into an Autopsy-MSOT folder in the Autopsy Python directory.
 
 ## License
